@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+* {
+  font-family: "Raleway", sans-serif;
+}
+.navbar-nav  a {
+  font-size: 13px !important;
+}
+.back-img{
+    background-image: url("https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2016/03/photo-1443527216320-7e744084f5a7-1.jpg");
+    width: 100%;
+}
