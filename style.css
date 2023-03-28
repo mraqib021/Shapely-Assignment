@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
 * {
   font-family: "Raleway", sans-serif;
+  /* border: 1px solid salmon; */
 }
 :root {
   --white: #fff;
@@ -36,7 +37,7 @@
   color: var(--white);
   padding: 15px 55px;
   border: 2px solid var(--purple);
-  border-radius:unset;
+  border-radius: unset;
 }
 .custom-btn {
   font-size: 12px !important;
@@ -44,24 +45,30 @@
   color: var(--white);
   border: 2px solid var(--white);
 }
-.custom-btn-p:hover{
+.custom-btn-p:hover {
   color: var(--white);
   background-color: #6f59dbde !important;
 }
-.custom-btn:hover{
+.custom-btn:hover {
   background-color: var(--white);
 }
-.back-img{
+.back-img {
   background-image: url("https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2016/12/photo-1452723312111-3a7d0db0e024.jpg");
   height: 450px;
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-position: center center; */
 }
-.sec-img{
+.sec-img {
   background-image: url("https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2016/12/photo-1451417379553-15d8e8f49cde.jpg");
   height: 450px;
   background-attachment: scroll;
   background-position: center;
-  margin-bottom: 500px;
+}
+.custom-color {
+  color: #fff;
+}
+.custom-arrow{
+  position: relative;
+  left: 97%;
+  top: 80px;
 }
